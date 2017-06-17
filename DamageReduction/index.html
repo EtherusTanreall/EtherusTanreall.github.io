@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+ <html lang="pt">
+    <html>
+     <head>
+       <meta charset="utf-8"/>
+	   <link href = "style.css" rel = "stylesheet" type = "text/css"/>
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <link rel="icon" type="image/png" href="favicon.ico">
+       <link rel="stylesheet" href="style.css">
+	   <script src="js/jquery-3.2.1.js"></script>
+	   <script type="text/javascript" src="js/database.js"></script>
+
+	   
+	   <title>Simulador de Redução de Dano by Etherus</title>
+     </head>
+    </html>
+	
+	<body class = "body">
+	    <div id="title">
+	        <span class="title">Simulador de Redução de Dano - Ver. 1.0 </span>
+		</div>
+		
+		<div id="credits">
+		    <span class="credits"><p>Feito por Etherus (Drops Guild)<br>Dúvidas/Sugestões/Dicas/Bug-reports, adicione:<br>Aresius (IS - main user) / Etherus (RS) / Arwald (LK)</p></span>
+		
+		<div id="simulador">
+		<form id="inputform" class="simulador">
+			<div class="DmgRed">
+		    <span><br>Valor da Redução de Dano:<br></span>
+			    <div class="inputDmgRed"><input type="number" name="DmgRedInput" min="0" id="DmgRedStart">
+			    </div>
+			</div>
+			<div class="nivel">
+			<span><br>Nível do personagem (1~99):</span>
+			    <div class="inputLv"><input type="number" name="LevelInput" min="1" max="99" id="Level">
+				</div>
+			</div>
+			<input type="button" class="calcular" onclick="calcularDamageReduction()" />
+			<input type="button" id="reset_button" class="reset" onclick="limpar()"/>
+		</div>
+		</form>
+		<div id="disclaimer">
+			<span class="disclaimer">
+			<br>Em "Valor da Redução de Dano" você colocará o número que<br>aparece na janela de status do seu personagem:
+				<br><img src="images/disclaimer_dmgred.png"><br>
+			<br>Em "Nível do personagem" você colocará o número<br>correspondente ao nível do seu personagem:
+				<br><img src="images/disclaimer_level.png"></span>
+				
+		<div id="links">
+		    <div class="maximization">
+		    <a href="https://etherustanreall.github.io/Maximization/" target="_blank">Simulador de Maximização</a>
+		    </div>
+            <div class="critical">
+		    <a href="https://etherustanreall.github.io/Critical/" target="_blank">Simulador de Crítico</a>
+			</div>
+			<div class="speed">
+		    <a href="https://etherustanreall.github.io/Speed/" target="_blank">Simulador de Velocidades</a>
+			</div>			
+	    </div>
+		</div>
+		
+		<span class="update">Atualizado pela última vez em 17/06/2017</span>
+	</body>
+	</html>
