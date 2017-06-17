@@ -1,0 +1,142 @@
+body
+{ 
+	margin:0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	color: #ffffff;
+	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+	font-family: Trebuchet MS;
+	background-color: #323232;
+}
+
+.title {
+	display: block;
+	font-weight: bold;
+	margin: 20 auto;
+	padding-left: 10px;
+	text-align: auto;
+	font-size: 40px;
+}
+
+.credits {
+	display: block;
+	text-outline: 5px;
+	font-weight: bold;
+	margin-top: 0 auto;
+	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+	text-align: auto;
+	padding-left: 10px;
+	color: #0066ff;
+	font-size: 18px; 
+}
+#disclaimer {
+	display:block;
+	font-weight: bold;
+	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+	text-align: center;
+	padding-bottom: 10px;
+	color: #ffffff;
+}
+#links {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 28px;
+	text-shadow: 1px;	
+}
+#links a:link { color: #0066ff; }
+#links a:visited { color: #0066ff; }
+#links a:hover { color: #4d94ff; }
+#links a:active { color: #006ff; }
+.maximization {
+	padding-left: 5px;
+}
+.critical {
+    padding-left: 30px;
+}
+.DmgRed {
+	padding-left: 30px;
+}
+.maximization, .critical, .DmgRed {display: inline;}
+#simulador
+{	
+	position: initial;
+	display: auto;
+	margin: 0 auto;
+	width: 450px;
+	height: 300px;
+	font-weight: bold;
+	text-align: center;
+	color: #0066ff;
+	vertical-align: top;
+	background-image: url("images/background.png");
+}
+input[type="number"], textarea {
+  color:#ffffff;
+  background-color : #000000;
+  border-width: 1px;
+  border-color: #0066ff;
+  text-align: center;
+
+}
+ .velocidade {
+	padding-top: 30px;
+ }
+ .inputSpeed {}
+ .nivel {}
+
+.calcular {
+	position: initial;
+	width:95px;
+	height: 31px;
+	margin-top: 10px;
+	margin-left: 0 auto;
+	background-image: url(images/calcular_off.png);
+	cursor: pointer;
+	border: none;
+	background-repeat: no-repeat;
+}
+
+.calcular:hover {
+	position: initial;
+	width:95px;
+	height: 31px;
+	margin-top: 10px;
+	margin-left: 0 auto;
+	background-image: url("images/calcular_on.png");
+	background-repeat: no-repeat;
+}
+
+#outputs {}
+
+.reset {
+	position: absolute;
+	width:36px;
+	height: 36px;
+	margin-top: 60px;
+	margin-left: -65px;
+	background-image: url(images/Reset_button_off.png);
+	cursor: pointer;
+	float: left;
+	border: none;
+	background-repeat: no-repeat;
+}
+.reset:hover {
+    position: absolute;
+	width:36px;
+	height: 36px;
+	margin-top: 60px;
+	margin-left: -65px;
+	background-image: url(images/Reset_button_on.png);
+	cursor: pointer;
+	float: left;
+	border: none;
+	background-repeat: no-repeat;
+}
+.update {
+	bottom:0;
+	right:0;
+	text-align: right;
+	position: absolute;
+	font-size:14px;
+}
