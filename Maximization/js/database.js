@@ -1,3 +1,9 @@
+/*----------------------------------------------------------------------------------------------------------------------------
+        Maximization simulator by Etherus (Drops Guild) - Elsword BR: Aresius (IS - main user) / Etherus (RS) / Arwald (LK)
+        Maximizaiton equation was achieved by using 'QTIPlot' and 'GeoGebra'
+        Thanks to Elwiki for providing some efficiecy intervals/normalization values.
+----------------------------------------------------------------------------------------------------------------------------*/
+
 function calcularMaximizacao(){
 	var Maximization = MaxStart.value;
 	var lv = Level.value;
