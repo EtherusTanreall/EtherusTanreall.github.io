@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------------------------------------------------------
-        Critical Rate simulator by Etherus (Drops Guild) - Elsword BR: Aresius (IS - main user) / Etherus (RS) / Arwald (LK)
+        Speed simulator by Etherus (Drops Guild) - Elsword BR: Aresius (IS - main user) / Etherus (RS) / Arwald (LK)
         Speed equation was achieved by using 'QTIPlot' and 'GeoGebra'
         Thanks to Elwiki for providing some efficiecy intervals/normalization values.
 ----------------------------------------------------------------------------------------------------------------------------*/
